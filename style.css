@@ -1,0 +1,121 @@
+﻿/*
+Dhvanil Patel
+Dhvanil_patel@live.com
+UMass Lowell in course 91.461 GUI Programming I
+9/10/2014, 09/23/2014
+A basic site for my GUI class, will be improved!
+I have tried to use all of tags which I learned in CSS so far!
+I really want to learn more and more stuff about CSS!
+*/
+/*Changing the properties of main body*/
+body {
+    background-image:url(background.jpg);
+    line-height:1.25;
+    padding:15px;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover
+}
+
+/*
+Making Paragraph letters to black and changing the style as well as size.
+*/
+p {
+    color:#000;
+    font-family:Georgia,serif;
+    font-size:large;
+    margin:20px;
+    margin-left:18cm;
+    line-height:70%
+}
+
+/*
+Header 1 "Dhvanil Patel" putting at the right place.
+*/
+h1 {
+    position:relative;
+    right:20px;
+    padding:10px;
+    font-size:1.8rem;
+    color:#000;
+    margin-left:8cm
+}
+
+/*
+Header 2 "Assignment" "Quotes", changing the size and colour, plus alignment.
+*/
+h2 {
+    margin:60px;
+    font-weight:800;
+    font-size:3.5rem;
+    color:gray;
+    line-height:1;
+    text-align:center
+}
+
+/*Making header 3 and 4 to center*/
+h3,h4 {
+    margin:40px;
+    text-align:center
+}
+
+/*div id navigation's alignment */
+#navigation ul {
+    padding-left:250px
+}
+
+#navigation li {
+    padding-left:35px;
+    margin:1px;
+    display:inline;
+    font-size:1.3rem
+}
+
+#navigation1 ul {
+    text-align:center;
+    font-size:1.5rem;
+    display:inline;
+    list-style-type:none
+}
+
+/*div id para's changing font-size  */
+#Para a {
+    font-size:large
+}
+
+hr{ width:70%;
+}
+
+/*blockquote element inserts block quotations*/
+blockquote p {
+    font-size:1.3rem;
+    margin:100px;
+    text-align:center
+}
+
+:link,a:visited {
+    color:#000
+}
+
+/*Copyright class's positioning*/
+.copyright {
+    padding-top:.77778rem;
+    padding-bottom:.77778rem
+}
+
+/*might use as a solid line, still deciding.*/
+/*.copyright {border-top: 1px solid #d0d2d4}
+*/
+/*Changing properties of link when you click on it*/
+a: .ver {
+    text-decoration:none;
+    color:#000;
+    background-color:#fff
+}
+
+/*Changing properties of link when you hold on it*/
+a:active {
+    color:purple;
+    background-color:#fff
+}
